@@ -1,144 +1,147 @@
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('./fontes/Montserrat-Bold.ttf');
+  font-family: "Montserrat-Bold";
+  src: url("./fontes/Montserrat-Bold.ttf");
 }
 
 @font-face {
-    font-family: 'Montserrat-Medium';
-    src: url('./fontes/Montserrat-Medium.ttf');
+  font-family: "Montserrat-Medium";
+  src: url("./fontes/Montserrat-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url('./fontes/Montserrat-SemiBold.ttf');
+  font-family: "Montserrat-SemiBold";
+  src: url("./fontes/Montserrat-SemiBold.ttf");
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .header p {
-    padding: 15px 0;
-    font-size: 16px;
-    background-color: var(--title);
-    color: var(--bgSite);
-    font-family: 'Montserrat-Medium';
+  padding: 15px 0;
+  font-size: 16px;
+  background-color: var(--title);
+  color: var(--bgSite);
+  font-family: "Montserrat-Medium";
 }
 
 .header h1 {
-    padding: 7px 0;
-    font-size: 24px;
-    font-family: 'Montserrat-SemiBold';
-    color: var(--title);
+  padding: 7px 0;
+  font-size: 24px;
+  font-family: "Montserrat-SemiBold";
+  color: var(--title);
 }
 
 .banner {
-    background: no-repeat center/100% linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./img/wallpaper.jpeg');
-    background-size: cover;
-    height: 377px;
+  background: no-repeat center/100%
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/wallpaper.jpeg");
+  background-size: cover;
+  height: 377px;
 }
 
 .banner-container {
-    color: var(--bgSite);
-    padding: 122px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  color: var(--bgSite);
+  padding: 122px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .banner-container h1 {
-    font-family: 'Montserrat-Bold';
-    font-size: 28px;
-    margin-bottom: 12px;
+  font-family: "Montserrat-Bold";
+  font-size: 28px;
+  margin-bottom: 12px;
 }
 
 .banner-container p {
-    font-family: 'Montserrat-SemiBold';
-    font-size: 16px;
-    line-height: 28px;
-    width: 85%;
+  font-family: "Montserrat-SemiBold";
+  font-size: 16px;
+  line-height: 28px;
+  width: 85%;
 }
 
 .destaques {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .destaques h2 {
-    font-family: 'Montserrat-SemiBold';
-    font-size: 28px;
-    margin-bottom: 5px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 28px;
+  margin-bottom: 5px;
 }
 
 .destaques p {
-    font-family: 'Montserrat-Medium';
-    line-height: 28px;
-    color: var(--text);
-    margin-bottom: 45px;
+  font-family: "Montserrat-Medium";
+  line-height: 28px;
+  color: var(--text);
+  margin-bottom: 45px;
 }
 
 .tenis {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
 }
 
 .tenis img {
-    padding: 76px 15px;
-    margin: 0 20px;
-    background-color: var(--bgCard);
+  padding: 76px 15px;
+  margin: 0 20px;
+  background-color: var(--bgCard);
 }
 
 .footer {
-    text-align: center;
-    padding: 12px 0;
-    font-family: 'Montserrat-Medium';
-    font-size: 18px;
-    color: var(--bgSite);
-    background-color: var(--title);
+  text-align: center;
+  padding: 12px 0;
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  color: var(--bgSite);
+  background-color: var(--title);
 }
 
 @media (min-width: 692px) {
-    .banner {
-        background-position: center;
-    }
+  .banner {
+    background-position: center;
+  }
 
-    .banner-container {
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
-        margin-left: 100px;
-    }
+  .banner-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 100px;
+  }
 
-    .banner-container h1 {
-        font-size: 32px;
-    }
+  .banner-container h1 {
+    font-size: 32px;
+  }
 
-    .banner-container p {
-        font-size: 18px;
-        width: 460px;
-    }
+  .banner-container p {
+    font-size: 18px;
+    width: 460px;
+  }
 
-    .destaques h2 {
-        font-size: 32px;
-    }
+  .destaques h2 {
+    font-size: 32px;
+  }
 
-    .destaques p {
-        font-size: 18px;
-    }
+  .destaques p {
+    font-size: 18px;
+  }
 
-    .tenis img {
-        width: 300px;
-    }
-    
-    .tenis {
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 40px 12px;
-        margin-bottom: 100px;
-    }
+  .tenis img {
+    width: 300px;
+    margin: 0;
+  }
+
+  .tenis {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 12px;
+    margin-bottom: 100px;
+  }
 }
