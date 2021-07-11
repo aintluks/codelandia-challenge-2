@@ -17,7 +17,7 @@
     <main>
       <section class="banner">
         <div class="banner-container">
-          <h1 class="banner-container--title"></h1>
+          <h1 class="banner-container--title">A melhor loja de Jordan</h1>
           <p class="banner-container--text"></p>
           <span id="typed"></span>
         </div>
@@ -48,11 +48,6 @@
   <script src="index.js"></script>
 
   <script>
-    var typed = new Typed(".banner-container--title", {
-      strings: ["A melhor loja de Jordan"],
-      typeSpeed: 30,
-    });
-
     var typed = new Typed(".banner-container--text", {
       strings: [
         "O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.",
@@ -71,6 +66,7 @@
 
     ScrollReveal().reveal(".header p", { delay: 100 });
     ScrollReveal().reveal(".header h1", { delay: 100 });
+    ScrollReveal().reveal(".banner-container--title", { delay: 100 });
     ScrollReveal().reveal(".destaques", { delay: 200 });
     ScrollReveal().reveal(".tenis", { delay: 400 });
   </script>
